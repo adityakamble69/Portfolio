@@ -84,7 +84,11 @@ const filterFunc = function (selectedValue) {
 
     if (selectedValue === "all") {
       filterItems[i].classList.add("active");
+<<<<<<< HEAD
     } else if (selectedValue === filterItems[i].dataset.category.toLowerCase()) {
+=======
+    } else if (selectedValue === filterItems[i].dataset.category) {
+>>>>>>> 2abe27fb8ad427218cb9b9de1a2ecb9e057b7053
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
